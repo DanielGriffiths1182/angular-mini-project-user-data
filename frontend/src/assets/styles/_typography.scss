@@ -1,0 +1,54 @@
+body {
+  font-size: $font-size;
+  color: $font-color;
+
+    .main-container {
+      margin: auto;
+      width: 50%;
+
+        .title-list {
+          border-bottom: black;
+          border-bottom-style: solid;
+          border-bottom-width: 2px;
+          font-size: 40px;
+          text-align: center;
+          margin: 20px 0 40px 0;
+          }
+
+        .name-tiles {
+          border-color: white;
+          border-width: 1px;
+          border-style: solid;
+          margin-left: auto;
+          margin-right: auto;
+          height: 50px;
+          width: 175px;
+          left: 50%;
+          font-size: 12px;
+          text-align: center;
+          padding: 0;
+          color: white;
+        }
+
+        .frame {
+          margin: auto;
+          padding-top: 40px;
+          width: 200px;
+          table-layout:fixed;
+          border-collapse: collapse;
+
+            .title {
+              border-bottom: 3px solid black;
+              font-size: 20px;
+              text-align: center;
+            }
+
+        }
+
+    }
+    
+    .second-container {
+
+    }
+
+}

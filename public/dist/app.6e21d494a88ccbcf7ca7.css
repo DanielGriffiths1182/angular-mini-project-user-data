@@ -1,0 +1,40 @@
+body {
+  font-size: 12px;
+  color: #000000; }
+  body .main-container {
+    margin: auto;
+    width: 50%; }
+    body .main-container .title-list {
+      font-size: 40px;
+      text-align: center;
+      margin: 20px 0 40px 0; }
+    body .main-container .name-tiles {
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      margin: auto;
+      height: 50px;
+      width: 150px;
+      left: 50%;
+      font-size: 12px;
+      text-align: center;
+      padding: 0;
+      color: white; }
+    body .main-container .table-frame {
+      margin: auto;
+      width: 100%; }
+.user-tile {
+  margin: auto;
+  width: 50%; }
+  .user-tile .name-tiles {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin: auto;
+    height: 50px;
+    width: 150px;
+    left: 50%;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    color: white; }

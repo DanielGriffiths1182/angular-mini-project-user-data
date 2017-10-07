@@ -1,0 +1,11 @@
+<div class="user-tile">
+    <user-item chosen="$ctrl.chosen"></user-item>
+        <div class="frame">
+            <p class="title">Basic Information</p>
+                <p>NAME: {{$ctrl.chosen.name}}<br>USERNAME: {{$ctrl.chosen.username}}<br>EMAIL: {{$ctrl.chosen.email}}<br>PHONE: {{$ctrl.chosen.phone}}<br>WEBSITE: {{$ctrl.chosen.website}}</p>
+            <p class="title">Address Information</p>
+                <p>STREET: {{$ctrl.chosen.address.street}}<br>SUITE: {{$ctrl.chosen.address.suite}}<br>CITY: {{$ctrl.chosen.address.city}}<br>ZIPCODE: {{$ctrl.chosen.address.zipcode}}<br>LATITUDE: {{$ctrl.chosen.address.geo.lat}}<br>LONGITUDE: {{$ctrl.chosen.address.geo.lng}}</p>
+            <p class="title">Company Information</p>
+                <p>NAME: {{$ctrl.chosen.company.name}}<br>CATCHPHRASE: {{$ctrl.chosen.company.catchPhrase}}<br>BS: {{$ctrl.chosen.company.bs}}</p>
+        </div>
+</div>

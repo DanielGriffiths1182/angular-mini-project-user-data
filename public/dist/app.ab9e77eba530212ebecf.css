@@ -1,0 +1,21 @@
+body {
+  font-size: 12px;
+  color: #000000; }
+  body .title-list {
+    font-size: 40px;
+    text-align: center;
+    margin: 20 0 40 0; }
+.user-tile {
+  margin: auto;
+  width: 50%; }
+  .user-tile .name-tiles {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: auto;
+    height: 50px;
+    width: 150px;
+    left: 50%;
+    font-size: 12px;
+    text-align: center;
+    padding: 0; }

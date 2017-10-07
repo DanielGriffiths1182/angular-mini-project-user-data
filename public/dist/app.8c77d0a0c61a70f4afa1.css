@@ -1,0 +1,14 @@
+body {
+  font-size: 12px;
+  color: #000000; }
+.user-tile {
+  position: absolute;
+  left: 0%; }
+  .user-tile .name-tiles {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0;
+    height: 50px;
+    width: 80px;
+    left: 50%; }
