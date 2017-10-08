@@ -109,14 +109,6 @@ a {
 section {
     padding: 50px 0;
 }
-// .row {
-//     display: -ms-flexbox;
-//     display: flex;
-//     -ms-flex-wrap: wrap;
-//     flex-wrap: wrap;
-//     margin-right: -15px;
-//     margin-left: -15px;
-// }
 
 .section-material {
 position: relative;
@@ -141,7 +133,7 @@ position: relative;
           margin-left: auto;
           margin-right: auto;
           height: 50px;
-          width: 175px;
+          width: 213px;
           left: 50%;
           font-size: 12px;
           text-align: center;
@@ -156,7 +148,17 @@ position: relative;
           table-layout:fixed;
           border-collapse: collapse;
 
-            .title {
+            .basic-info {
+              border-bottom: 3px solid black;
+              font-size: 20px;
+              text-align: center;
+            }
+            .address-info {
+              border-bottom: 3px solid black;
+              font-size: 20px;
+              text-align: center;
+            }
+            .company-info {
               border-bottom: 3px solid black;
               font-size: 20px;
               text-align: center;

@@ -1,11 +1,47 @@
-<div class="user-tile">
-    <user-item chosen="$ctrl.chosen"></user-item>
-        <div class="frame">
-            <p class="title">Basic Information</p>
-                <p>NAME: {{$ctrl.chosen.name}}<br>USERNAME: {{$ctrl.chosen.username}}<br>EMAIL: {{$ctrl.chosen.email}}<br>PHONE: {{$ctrl.chosen.phone}}<br>WEBSITE: {{$ctrl.chosen.website}}</p>
-            <p class="title">Address Information</p>
-                <p>STREET: {{$ctrl.chosen.address.street}}<br>SUITE: {{$ctrl.chosen.address.suite}}<br>CITY: {{$ctrl.chosen.address.city}}<br>ZIPCODE: {{$ctrl.chosen.address.zipcode}}<br>LATITUDE: {{$ctrl.chosen.address.geo.lat}}<br>LONGITUDE: {{$ctrl.chosen.address.geo.lng}}</p>
-            <p class="title">Company Information</p>
-                <p>NAME: {{$ctrl.chosen.company.name}}<br>CATCHPHRASE: {{$ctrl.chosen.company.catchPhrase}}<br>BS: {{$ctrl.chosen.company.bs}}</p>
+<user-item open="$ctrl.open()" chosen="$ctrl.chosen"></user-item>
+<!-- <div class="user-tile">
+    <div class="frame">
+        <p class="basic-info">Basic Information</p>
+            <p>NAME: {{$ctrl.chosen.name}}<br>USERNAME: {{$ctrl.chosen.username}}<br>EMAIL: {{$ctrl.chosen.email}}<br>PHONE: {{$ctrl.chosen.phone}}<br>WEBSITE: {{$ctrl.chosen.website}}</p>
+        <p class="address-info">Address Information</p>
+            <p>STREET: {{$ctrl.chosen.address.street}}<br>SUITE: {{$ctrl.chosen.address.suite}}<br>CITY: {{$ctrl.chosen.address.city}}<br>ZIPCODE: {{$ctrl.chosen.address.zipcode}}<br>LATITUDE: {{$ctrl.chosen.address.geo.lat}}<br>LONGITUDE: {{$ctrl.chosen.address.geo.lng}}</p>
+        <p class="company-info">Company Information</p>
+            <p>NAME: {{$ctrl.chosen.company.name}}<br>CATCHPHRASE: {{$ctrl.chosen.company.catchPhrase}}<br>BS: {{$ctrl.chosen.company.bs}}</p>
+    </div>
+</div> -->
+<div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Basic Information</h2>
+                  <p class="card-text">NAME: {{$ctrl.chosen.name}}<br>USERNAME: {{$ctrl.chosen.username}}<br>EMAIL: {{$ctrl.chosen.email}}<br>PHONE: {{$ctrl.chosen.phone}}<br>WEBSITE: {{$ctrl.chosen.website}}</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Address Information</h2>
+                <p class="card-text">STREET: {{$ctrl.chosen.address.street}}<br>SUITE: {{$ctrl.chosen.address.suite}}<br>CITY: {{$ctrl.chosen.address.city}}<br>ZIPCODE: {{$ctrl.chosen.address.zipcode}}<br>LATITUDE: {{$ctrl.chosen.address.geo.lat}}<br>LONGITUDE: {{$ctrl.chosen.address.geo.lng}}</p>            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Company Information</h2>
+              <p class="card-text">NAME: {{$ctrl.chosen.company.name}}<br>CATCHPHRASE: {{$ctrl.chosen.company.catchPhrase}}<br>BS: {{$ctrl.chosen.company.bs}}</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
         </div>
 </div>
