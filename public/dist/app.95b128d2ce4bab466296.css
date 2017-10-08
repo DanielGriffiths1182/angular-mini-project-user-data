@@ -1,0 +1,186 @@
+body {
+  font-size: 12px;
+  color: #000000;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff; }
+  body h1 {
+    margin: 0;
+    padding-top: 30px; }
+  body .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; }
+  body .bg-dark {
+    background-color: #343a40 !important; }
+  body .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem; }
+  body .navbar > .container, body .navbar > .container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  body .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%; }
+  body .navbar-dark .navbar-brand {
+    color: #fff; }
+  body .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap; }
+  body a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects; }
+  body .navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.1); }
+  body .navbar-dark {
+    color: rgba(255, 255, 255, 0.5); }
+  body .text-white {
+    color: #fff !important; }
+  body .bg-primary {
+    background-color: #007bff !important;
+    height: 175px; }
+  body .text-center {
+    text-align: center !important; }
+  body .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%; }
+  body .lead {
+    font-size: 1.25rem;
+    font-weight: 300; }
+  body section {
+    padding: 50px 0; }
+  body .section-material {
+    position: relative;
+    width: 75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto; }
+  body .user-item {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 40px 0; }
+  body .name-tiles {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 213px;
+    left: 50%;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    color: white; }
+  body .frame {
+    margin: auto;
+    padding-top: 40px;
+    width: 200px;
+    table-layout: fixed;
+    border-collapse: collapse; }
+    body .frame .basic-info {
+      border-bottom: 3px solid black;
+      font-size: 20px;
+      text-align: center; }
+    body .frame .address-info {
+      border-bottom: 3px solid black;
+      font-size: 20px;
+      text-align: center; }
+    body .frame .company-info {
+      border-bottom: 3px solid black;
+      font-size: 20px;
+      text-align: center; }
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.mb-4 {
+  margin-bottom: 1.5rem !important; }
+
+@media (min-width: 1068px) {
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; } }
+
+@media (max-width: 1067px) {
+  .col-md-4 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; } }
+
+.h-100 {
+  height: 100% !important; }
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem; }
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem; }
+
+.card-title {
+  margin-bottom: .75rem;
+  font-size: 2rem; }
+
+.card-text:last-child {
+  margin-bottom: 0; }
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px); }
+
+.card-footer {
+  padding: .75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125); }
