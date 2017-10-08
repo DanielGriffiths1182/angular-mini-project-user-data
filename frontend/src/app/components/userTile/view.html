@@ -1,36 +1,32 @@
+<!-- Placement of button tiles -->
 <user-item chosen="$ctrl.chosen"></user-item>
 
+<!-- Row of catagories for specific user information -->
 <div class="row">
-    <div class="col-md-4 mb-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h2 class="card-title">Personal Information</h2>
-                    <p class="card-text">NAME: {{$ctrl.chosen.name}}<br>USERNAME: {{$ctrl.chosen.username}}<br>EMAIL: {{$ctrl.chosen.email}}<br>PHONE: {{$ctrl.chosen.phone}}<br>WEBSITE: {{$ctrl.chosen.website}}</p>
+    <div class="column-box">
+        <div class="box">
+            <div class="box-body">
+                <h2 class="box-title">Personal Information</h2>
+                    <p class="box-text">NAME: {{$ctrl.chosen.name}}<br>USERNAME: {{$ctrl.chosen.username}}<br>EMAIL: {{$ctrl.chosen.email}}<br>PHONE: {{$ctrl.chosen.phone}}<br>WEBSITE: {{$ctrl.chosen.website}}</p>
             </div>
-            <div class="card-footer">
-                <a class="btn btn-primary"></a>
-            </div>
+            <div class="box-footer"></div>
         </div>
     </div>
-    <div class="col-md-4 mb-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h2 class="card-title">Address Information</h2>
-                    <p class="card-text">STREET: {{$ctrl.chosen.address.street}}<br>SUITE: {{$ctrl.chosen.address.suite}}<br>CITY: {{$ctrl.chosen.address.city}}<br>ZIPCODE: {{$ctrl.chosen.address.zipcode}}<br>LATITUDE: {{$ctrl.chosen.address.geo.lat}}<br>LONGITUDE: {{$ctrl.chosen.address.geo.lng}}</p>            </div>
-            <div class="card-footer">
-                <a class="btn btn-primary"></a>
-            </div>
+    <div class="column-box">
+        <div class="box">
+            <div class="box-body">
+                <h2 class="box-title">Address Information</h2>
+                    <p class="box-text">STREET: {{$ctrl.chosen.address.street}}<br>SUITE: {{$ctrl.chosen.address.suite}}<br>CITY: {{$ctrl.chosen.address.city}}<br>ZIPCODE: {{$ctrl.chosen.address.zipcode}}<br>LATITUDE: {{$ctrl.chosen.address.geo.lat}}<br>LONGITUDE: {{$ctrl.chosen.address.geo.lng}}</p>            </div>
+            <div class="box-footer"></div>
         </div>
     </div>
-    <div class="col-md-4 mb-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h2 class="card-title">Company Information</h2>
-                    <p class="card-text">NAME: {{$ctrl.chosen.company.name}}<br>CATCHPHRASE: {{$ctrl.chosen.company.catchPhrase}}<br>BS: {{$ctrl.chosen.company.bs}}</p>
+    <div class="column-box">
+        <div class="box">
+            <div class="box-body">
+                <h2 class="box-title">Company Information</h2>
+                    <p class="box-text">NAME: {{$ctrl.chosen.company.name}}<br>CATCHPHRASE: {{$ctrl.chosen.company.catchPhrase}}<br>BS: {{$ctrl.chosen.company.bs}}</p>
             </div>
-            <div class="card-footer">
-                <a class="btn btn-primary"></a>
-            </div>
+            <div class="box-footer"></div>
         </div>
     </div>
 </div>

@@ -1,1 +1,33 @@
 @import "../../../assets/styles/variables";
+
+// Tiles section
+.button-tiles {
+    padding: 50px 0;
+
+// Aggregate tiles
+    .section-material {
+        position: relative;
+        width: 75%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+
+// Individual tiles
+        .name-tiles {
+            border-color: white;
+            border-width: 1px;
+            border-style: solid;
+            margin-left: auto;
+            margin-right: auto;
+            height: 50px;
+            width: 213px;
+            left: 50%;
+            font-size: 12px;
+            text-align: center;
+            padding: 0;
+            color: white;
+        }
+    }
+}
