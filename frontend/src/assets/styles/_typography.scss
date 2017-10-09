@@ -14,14 +14,6 @@ body {
 // NavBar styles
     .navbar {
         position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
         padding: .5rem 1rem;
         background-color: black;
         color: rgba(255,255,255,.5);
@@ -48,8 +40,7 @@ body {
 
 // Header title
     .header-container {
-        color: #fff!important;
-        background-color: #007bff!important;
+        background-color: #007bff;
         height: 225px;
         padding-top: 30px;
         opacity: .7;
@@ -62,7 +53,7 @@ body {
             padding-right: 15px;
             padding-left: 15px;
             width: 100%;
-            text-align: center!important;
+            text-align: center;
             font-size: 1.8rem;
             color: white;
 
