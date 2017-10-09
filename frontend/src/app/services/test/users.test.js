@@ -4,6 +4,7 @@ describe('UsersService', () => {
     let service;
 
     const $http = {};
+    const entityEndpointUrl = 'https://jsonplaceholder.typicode.com/users';
 
     beforeEach(() => {
         service = new Service($http);
@@ -17,7 +18,12 @@ describe('UsersService', () => {
 
     describe('getData', () => {
       it('should return an observable array', () => {
-          expect(service.data.length).toBe(10);
+          var config = {}
+          var data = service.$http.get(`${entityEndpointUrl}`, config);
+          data.then(response=> {
+              service.users = response.data;
+          });
+          expect(users.length).toBe(10);
       });
     });
 });

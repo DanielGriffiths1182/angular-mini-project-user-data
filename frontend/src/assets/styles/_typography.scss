@@ -23,7 +23,7 @@ body {
         -ms-flex-pack: justify;
         justify-content: space-between;
         padding: .5rem 1rem;
-        background-color: #343a40!important;
+        background-color: black;
         color: rgba(255,255,255,.5);
 
         .container {
@@ -50,8 +50,11 @@ body {
     .header-container {
         color: #fff!important;
         background-color: #007bff!important;
-        height: 175px;
+        height: 225px;
         padding-top: 30px;
+        opacity: .7;
+        // background-image: url(../images/cluster-mapping.jpg);
+        // background-position: left top;
 
 
 // Header section container
@@ -62,10 +65,12 @@ body {
             padding-left: 15px;
             width: 100%;
             text-align: center!important;
+            font-size: 1.8rem;
+            color: white;
 
 // Header introduction text
             .intoduction-text {
-                font-size: 1.25rem;
+                font-size: 1.7rem;
                 font-weight: 300;
             }
         }
